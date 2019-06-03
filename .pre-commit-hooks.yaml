@@ -1,0 +1,6 @@
+-   id: git-spell-check
+    name: spell-check
+    description: 'Uses aspell to spell check your commit message.'
+    entry: ./pre-commit
+    language: script
+    require_serial: true
